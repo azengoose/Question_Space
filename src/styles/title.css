@@ -1,0 +1,40 @@
+.background {
+  z-index: 4;
+  background: rgb(9, 9, 34);
+  background: linear-gradient(
+    27deg,
+    rgba(9, 9, 34, 1) 0%,
+    rgba(19, 14, 108, 1) 43%,
+    rgb(36, 8, 14) 100%
+  );
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title-content {
+  text-align: center;
+}
+.title-heading {
+  color: rgb(198, 198, 255);
+}
+.title-sub {
+  color: rgb(168, 154, 230);
+  padding-bottom: 20px;
+}
+.title-button {
+  margin: 20px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  transition: 1s;
+}
+.title-button:hover {
+  background-color: rgb(250, 199, 250);
+  box-shadow: 0px 0px 20px rgb(255, 255, 255);
+  color: rgb(90, 7, 51);
+}

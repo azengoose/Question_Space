@@ -1,0 +1,57 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "compilerOptions": {
+        // "strict": true,
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "lib": [
+            "dom",
+            "es2015"
+        ],
+        "jsx": "react-jsx",
+        "target": "es6",
+        "allowJs": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "noEmit": true,
+        "noFallthroughCasesInSwitch": true,
+        "module": "esnext",
+        "isolatedModules": true
+    }
+}
+// Failed to compile. ./node_modules/framer-motion/dist/es/
+//components/AnimatePresence/index.mjs Can't import the named 
+//export 'Children' from non EcmaScript module (only default 
+//export is available) info Visit https://yarnpkg.com/en/docs/cli/run 
+//for documentation about this command. | The following changes are 
+//being made to your tsconfig.json file: - compilerOptions.target 
+//to be suggested value: es5 (this can be changed) - 
+//
+//Failed to compile. /tmp/deploys/f4j8q/ckxx3o65108xy0us8d2sd98an/s
+//ource/src/components/arrows.tsx TypeScript error in 
+// /tmp/deploys/f4j8q/ckxx3o65108xy0us8d2sd98an/source/src/components/
+// arrows.tsx(16,28): Parameter 'props' implicitly has an 'any' type. 
+// TS7006 14 | // } 15 | > 16 | export function RightArrow(props) 
+// { | ^ 17 | return ( 18 | <> 19 | <Link to={props.link}> info Visit
+//
+// Failed to compile. /tmp/deploys/f4j8q/ckxx42c2808y30us80h54d90u/
+//source/src/components/timer.tsx TypeScript error in /tmp/deploys/
+//f4j8q/ckxx42c2808y30us80h54d90u/source/src/components/timer.tsx(19,7): 
+//Type 'Timer' is not assignable to type 'null'. TS2322 17 | let timer 
+//= null; 18 | if (isActive) { > 19 | timer = setInterval(() => { | ^ 20 
+//| setSeconds((seconds) => Math.round((seconds + 0.01) * 1000) / 1000); 
+//21 | }, 10); 22 | } else { info Visit https://yarnpkg.com/en/docs/cli/run 
+//for documentation about this command
+//
+//Failed to compile. /source/src/hoc/animate.tsx TypeScript error in /
+//source/src/hoc/animate.tsx(undefined,undefined): 'animate.tsx' 
+//cannot be compiled under '--isolatedModules' because it is considered a 
+//global script file. Add an import, export, or an empty 'export {}' 
+//statement to make it a module. TS1208 | The following changes are being 
+//made to your tsconfig.json file: - compilerOptions.strict to be suggested 
+//value: true (this can be changed) error Command failed with exit code 1.
