@@ -1,12 +1,8 @@
 {
-  "name": "react-typescript",
+  "name": "questspace",
   "version": "1.0.0",
-  "description": "React and TypeScript project",
-  "keywords": [
-    "typescript",
-    "react",
-    "website"
-  ],
+  "description": "",
+  "keywords": [],
   "main": "src/index.tsx",
   "dependencies": {
     "@typeform/embed-react": "1.2.4",
