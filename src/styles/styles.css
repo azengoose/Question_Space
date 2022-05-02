@@ -1,9 +1,9 @@
 :root {
-  --color-bg: #fed5c8;
+  --color-bg: #c8fef9;
   --bg-grad: radial-gradient(
     circle,
-    rgba(255, 235, 240, 1) 0%,
-    rgb(255, 236, 252) 100%
+    rgb(235, 248, 255) 0%,
+    rgb(239, 236, 255) 100%
   );
   --color-text-main: #000000;
   --color-primary: #afece0;
@@ -128,7 +128,7 @@ body {
   margin: 0 1rem;
 }
 h1 {
-  color: #2800ff;
+  color: #8a009c;
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
@@ -164,7 +164,7 @@ h1 {
 }
 .h2-body {
   text-align: center;
-  color: rgb(68, 0, 255);
+  color: #8a009c;
   padding: 9px 0 7px 0;
 }
 .h2-body:after {

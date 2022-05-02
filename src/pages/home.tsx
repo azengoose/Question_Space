@@ -78,14 +78,14 @@ export default function Home() {
 
         <Browser />
 
-        <h1 className="home-title"> &lt;MetaSite/&gt;</h1>
-        <p className="sub-text">This is a demo.</p>
+        <h1 className="home-title"> ?Question?</h1>
+        <p className="sub-text">A quest to explore the question.</p>
 
         <p style={{ textAlign: "center", marginTop: -15 }}>
           More information upwards ^
         </p>
 
-        <p style={{ textAlign: "center", marginBottom: 0 }}>
+        <p style={{ textAlign: "center", marginBottom: 0, marginTop: 70 }}>
           <em>Navigate by clicking the arrows situated on the sides.</em>
         </p>
 

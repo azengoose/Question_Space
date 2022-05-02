@@ -35,7 +35,7 @@ export default function Browser() {
             fontWeight: "bold",
             margin: "-10px 0",
             textAlign: "center",
-            color: "#2800FF"
+            color: "#8a009c"
           }}
         >
           {browser}

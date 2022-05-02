@@ -66,65 +66,34 @@ export default function About() {
         </button>
         <div className="content-space">
           <h1 className="h1-space">About</h1>
-          <p className="sub-text">Be mindful of bugs.</p>
-          <h2 className="h2-body">Introduction</h2>
-          <p>Hello and warmest welcome to this cosy nook of the internet. </p>
+          <p className="sub-text">
+            A short exploration of the question of questions.
+          </p>
+          <h2 className="h2-body">Navigation</h2>
+          <p>Treat this site like an internet essay. </p>
+          <p>
+            There is a few amount of text, a couple illustrations and other
+            media, but for the most part, the main dishes of this course are the
+            navigational features and the organisation of this 'essay-like' text
+            in a spatial form.
+          </p>
+          <p>You'll probably not like this initially, </p>
           <p>
             Essentially, this is an experimental website using basic pages and
-            text, but organised in a spatial manner, as if regressing somewhat
-            to a physical organisation of pieces of paper. Navigation is
-            currently mainly provided by arrows displayed on the sides of pages.
+            text, but organised in a spatial manner. Navigation is currently
+            mainly provided by arrows displayed on the sides of pages. Othewise,
+            this site reads like a normal essay, but information and various
+            other forms of content have been organised in a spatial manner.
           </p>
+
+          <h2 className="h2-body">Who Made This?</h2>
           <p>
-            This version is a demo and it is unlikely that this project will
-            later be called 'MetaSite', for the practical purpose of avoiding
-            any positive or less flattering associations formed from the
-            developments from a certain similar-sounding large entity, of which
-            I personally am unsure exists right now?
+            Someone who wishes to remain relatively anonymous for now. But, I've
+            worked on this project for a year now.
           </p>
-          <p>
-            Anyway, if you're interested, take a peek at my internals by{" "}
-            <a href="https://www.thoughtco.com/get-inspect-element-tool-for-browser-756549">
-              inspecting element
-            </a>
-            , or go ahead and give yourself the liberty of blithely copy-pasting
-            the code from this project's source files on{" "}
-            <a href="https://github.com/azengoose/MetaSite_V2">GitHub</a>{" "}
-            (software people: apologies in advance for the spaghetti).
-          </p>
-          <h2 className="h2-body"> Aims</h2>
-          <p>
-            It is believed that this experimental way of formatting ideas, for
-            example, traditional essays, can develop to be a readily easy way to
-            do a traditional medium differently. I pause to suggest any degree
-            of 'betterness', but I am interested in difference.
-          </p>
-          <p>
-            Hence, it is pertinent to advance the idea of any such a medium in
-            any way that is conducive to its wider discovery and adoption. I
-            personally refuse anyway, to be confined so far, in the landscape of
-            concept elaboration via boringly linear-scrolling blog posts,
-            cobbled together with other mixed media forms with little rhyme or
-            craft, or to be led to the difficulties of larger video game
-            development. I am afraid I also must include in my attack,
-            traditional books; for they too, fall into the realm of rather
-            linearly-interactive conceptual explorations.
-          </p>
-          <p>
-            My point simply, is that I am sure there is a different, more
-            compelling way to do ideas justice. Perhaps this is not the correct
-            course - for example, solutions to accessbility have not yet been
-            considered; but I'll be damned if I didn't try.
-          </p>
-          <p>Some other questions hoped to be explored in a near future:</p>
-          <ol>
-            <li>Learning via questioning; the larger role of questions.</li>
-            <li>A more graphical approach to writing.</li>
-          </ol>
 
           <p style={{ paddingBottom: 0, marginBottom: 0 }}>
-            Distillation of your thoughts into writing for MetaSite will
-            probably be appreciated ^.
+            I hope you enjoy the site.
           </p>
         </div>
       </motion.div>
